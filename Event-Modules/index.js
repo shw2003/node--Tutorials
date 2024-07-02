@@ -19,3 +19,9 @@ pizzaShop.displayOrderNumber();
 
 // console.log("heelo");
 // emitter.emit("oreder-pizza", " large", "mushroom");
+
+const buffer = new Buffer.from("Vish");
+
+console.log(buffer);
+
+console.log(buffer.toJSON());
