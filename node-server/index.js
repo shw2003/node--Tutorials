@@ -7,9 +7,12 @@ const server = http.createServer((req, res) => {
     firstName: "bruce",
     lastName: "wayne",
   };
+
+  const name = "shweta karan";
   res.writeHead(200, { "Content-Type": "text/html" });
   //   res.end(JSON.stringify(superHero));
-  const html = fs.readFileSync("./index.html", "utf-8");
+  let html = fs.readFileSync("./index.html", "utf-8");
+  html = html.replace("{{name}}", name);
   res.end(html);
 });
 
