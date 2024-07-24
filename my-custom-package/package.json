@@ -1,0 +1,15 @@
+{
+  "name": "greet-codevolution",
+  "version": " 1.0.0",
+  "description": "node js greeting package",
+  "keywords": [
+    "node js",
+    "greet"
+  ],
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "upper-case": "^3.0.0"
+  }
+}
